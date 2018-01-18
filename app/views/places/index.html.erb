@@ -4,6 +4,14 @@
   <title></title>
 </head>
 <body>
-  <h1>Hello This is my Root</h1>
+  <% @places. each do |place| %>
+    <div>
+      <h1><%= place.name %></h1> <br />
+      <i><%= place.address %></i><br />
+      <p><%= place.description %></p><br />
+    </div>
+
+    <hr />
+  <% end %>
 </body>
 </html>
