@@ -1,7 +1,6 @@
 class Place < ApplicationRecord
   belongs_to :user
   has_many :comments
-  paginates_per 2
   has_many :photos
 
 
