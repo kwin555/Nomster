@@ -63,6 +63,7 @@ gem 'figaro'
 gem 'carrierwave', '~> 0.10.0'
 gem 'mini_magick', '~> 4.3'
 gem 'fog'
+gem 'fog-aws'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>=1.3.3'

@@ -386,6 +386,7 @@ DEPENDENCIES
   devise
   figaro
   fog
+  fog-aws
   font-awesome-rails
   geocoder
   jbuilder (~> 2.5)
@@ -408,4 +409,4 @@ DEPENDENCIES
   will_paginate (~> 3.1.0)
 
 BUNDLED WITH
-   1.13.6
+   1.16.1
